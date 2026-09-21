@@ -1,0 +1,20 @@
+INSERT INTO job_applied (
+    job_id,
+    application_sent_date,
+    custom_resume,
+    resume_file_name,
+    cover_letter_sent,
+    cover_letter_file_name,
+    status
+  )
+VALUES (
+    job_id:integer,
+    'application_sent_date:date',
+    custom_resume:boolean,
+    'resume_file_name:character varying',
+    cover_letter_sent:boolean,
+    'cover_letter_file_name:character varying',
+    'status:character varying'
+  );
+
+  SELECT * FROM job_applied;

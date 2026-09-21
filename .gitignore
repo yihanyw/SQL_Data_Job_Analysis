@@ -1,0 +1,15 @@
+/._csv_files
+/._notes.docx
+/._sql_load
+/.vscode
+/SQL_Data_Job_Analysis
+/connect-postgre.txt
+/info.txt
+/notes.docx
+/postgres.session.sql
+/project_steps.txt
+/sql_course.session.sqlcsv_files/*.csv
+csv_files/*.csv
+csv_files/*.csv
+.*
+!.gitignore
